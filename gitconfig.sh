@@ -64,3 +64,17 @@ git --version
 git config --global user.name "Mithun Technologies"
 git config --global user.email "devopstrainingblr@gmail.com"
 git config --list
+
+installation of git  in ec2 instance
+------------------------------------
+root is recommanded
+
+yum install git -y
+
+ssh-keygen
+
+eval "$(ssh-agent -s)"  #should add ssh-agent
+
+ssh-add ~/.ssh/id_rsa  #should add it in a local ssh
+
+
